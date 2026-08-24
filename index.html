@@ -1,0 +1,82 @@
+// 1. Print numbers from 1 to 10
+for(let i = 1; i <= 10; i++){
+  console.log(i);
+}
+
+// 2. Print numbers from 10 to 1
+for(let i = 10; i >= 1; i--){
+  console.log(i);
+}
+
+// 3. Print numbers from 1 to 20
+for(let i = 1; i <= 20; i++){
+  console.log(i);
+}
+
+// 4. Print all even numbers from 1 to 20
+for(let i = 2; i <= 20; i += 2){
+  console.log(i);
+}
+
+// 5. Print all odd numbers from 1 to 20
+for(let i = 1; i <= 20; i += 2){
+  console.log(i);
+}
+
+// 6. Print numbers divisible by 5 from 1 to 50
+for(let i = 5; i <= 50; i += 5){
+  console.log(i);
+}
+
+// 7. Print "Hello World" 10 times
+for(let i = 1; i <= 10; i++){
+  console.log("Hello World");
+}
+
+// 8. Print your name 5 times
+let name = "Ali"; // apna name daal do
+for(let i = 1; i <= 5; i++){
+  console.log(name);
+}
+
+// 9. Find the sum of numbers from 1 to 10
+let sum1 = 0;
+for(let i = 1; i <= 10; i++){
+  sum1 += i;
+}
+console.log("Sum 1 to 10:", sum1);
+
+// 10. Find the sum of numbers from 1 to 100
+let sum2 = 0;
+for(let i = 1; i <= 100; i++){
+  sum2 += i;
+}
+console.log("Sum 1 to 100:", sum2);
+// 11. Print the table of 2
+for(let i = 1; i <= 10; i++){
+  console.log(`2 x ${i} = ${2*i}`);
+}
+
+// 12. Print the table of 5
+for(let i = 1; i <= 10; i++){
+  console.log(`5 x ${i} = ${5*i}`);
+}
+
+// 13. Print the table of 10
+for(let i = 1; i <= 10; i++){
+  console.log(`10 x ${i} = ${10*i}`);
+}
+
+// 14. Ask the user for a number and print its table
+let num = prompt("Kis number ka table chahiye?");
+for(let i = 1; i <= 10; i++){
+  console.log(`${num} x ${i} = ${num*i}`);
+}
+
+// 15. Print tables from 1 to 5
+for(let n = 1; n <= 5; n++){
+  console.log(`--- Table of ${n} ---`);
+  for(let i = 1; i <= 10; i++){
+    console.log(`${n} x ${i} = ${n*i}`);
+  }
+}
